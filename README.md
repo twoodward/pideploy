@@ -77,11 +77,13 @@ Before running in your environment, update the following values in the script:
    ```bash
    chmod +x deploy.sh
    ```
+   This gives the script permission to run.
 
 3. Run the script:
    ```bash
    ./deploy.sh
    ```
+   The `./` tells your shell to execute the script from the current directory.
 
 4. Follow prompts (hostname, AD username, etc.).
 
